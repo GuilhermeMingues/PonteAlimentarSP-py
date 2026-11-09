@@ -1,0 +1,77 @@
+{
+  "ongs": [
+    {
+      "id": 1,
+      "nome": "Cozinha Solidária Leste",
+      "regiao": "Leste",
+      "categorias_aceitas": ["perecível", "não perecível", "preparado"],
+      "refrigeracao": true,
+      "capacidade_kg": 200.0,
+      "recebido_kg": 40.0
+    },
+    {
+      "id": 2,
+      "nome": "Instituto Prato Cheio",
+      "regiao": "Sul",
+      "categorias_aceitas": ["não perecível"],
+      "refrigeracao": false,
+      "capacidade_kg": 150.0,
+      "recebido_kg": 0.0
+    },
+    {
+      "id": 3,
+      "nome": "Casa de Apoio Centro",
+      "regiao": "Centro",
+      "categorias_aceitas": ["perecível", "preparado"],
+      "refrigeracao": true,
+      "capacidade_kg": 80.0,
+      "recebido_kg": 70.0
+    }
+  ],
+  "doacoes": [
+    {
+      "id": 1,
+      "doador": "Padaria Bom Pão",
+      "alimento": "Pães variados",
+      "categoria": "não perecível",
+      "quantidade_kg": 12.0,
+      "regiao": "Leste",
+      "validade": "12/11/2026 18:00",
+      "status": "disponível",
+      "ong_id": null
+    },
+    {
+      "id": 2,
+      "doador": "Restaurante Sabor da Vila",
+      "alimento": "Marmitas",
+      "categoria": "preparado",
+      "quantidade_kg": 8.0,
+      "regiao": "Centro",
+      "validade": "09/11/2026 20:00",
+      "status": "disponível",
+      "ong_id": null
+    },
+    {
+      "id": 3,
+      "doador": "Feira Livre Vila Mariana",
+      "alimento": "Frutas e legumes",
+      "categoria": "perecível",
+      "quantidade_kg": 25.0,
+      "regiao": "Sul",
+      "validade": "10/11/2026 12:00",
+      "status": "disponível",
+      "ong_id": null
+    },
+    {
+      "id": 4,
+      "doador": "Mercado São Jorge",
+      "alimento": "Arroz e feijão",
+      "categoria": "não perecível",
+      "quantidade_kg": 40.0,
+      "regiao": "Leste",
+      "validade": "30/12/2026 23:59",
+      "status": "entregue",
+      "ong_id": 1
+    }
+  ]
+}
