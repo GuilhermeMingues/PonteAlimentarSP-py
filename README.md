@@ -126,3 +126,5 @@ Guilherme Mingues Matos - RM568670
 Murillo Padula de Gouveia RM571620
 
 Renato Munhoz Mariana - RM573570
+
+Leonardo Henrique Basseti - RM574039
